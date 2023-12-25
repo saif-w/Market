@@ -1,0 +1,182 @@
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\Bay.exe.config
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.exe
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.pdb
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\Bay.exe
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\Bay.pdb
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.Form1.resources
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.PL.Form1.resources
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.PL.item_pr.resources
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.PL.login.resources
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.PL.main_form.resources
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.PL.new_acount.resources
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.PL.Prnc.resources
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.Properties.Resources.resources
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.UC.Items.resources
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.UC.Members.resources
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.csproj.GenerateResource.Cache
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.PL.Home.resources
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.UC.cus_id.resources
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.Rep.Reprt1.resources
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\RdlCompile.cache
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\RdlCompile.compiled
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.PL.cus_ss.resources
+F:\Bay\Bay\bin\Debug\Bay.exe.config
+F:\Bay\Bay\obj\Debug\Bay.exe
+F:\Bay\Bay\obj\Debug\Bay.pdb
+D:\Bay\Bay\bin\Debug\Bay.exe.config
+D:\Bay\Bay\obj\Debug\Bay.exe
+D:\Bay\Bay\obj\Debug\Bay.pdb
+D:\Bay\Bay\bin\Debug\Bay.exe
+D:\Bay\Bay\bin\Debug\Bay.pdb
+D:\Bay\Bay\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Bay\Bay\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Bay\Bay\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+D:\Bay\Bay\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+D:\Bay\Bay\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+D:\Bay\Bay\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+D:\Bay\Bay\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+D:\Bay\Bay\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+D:\Bay\Bay\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+D:\Bay\Bay\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+D:\Bay\Bay\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\Bay\Bay\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\Bay\Bay\obj\Debug\Bay.Form1.resources
+D:\Bay\Bay\obj\Debug\Bay.PL.cus_ss.resources
+D:\Bay\Bay\obj\Debug\Bay.PL.Form1.resources
+D:\Bay\Bay\obj\Debug\Bay.PL.Home.resources
+D:\Bay\Bay\obj\Debug\Bay.PL.item_pr.resources
+D:\Bay\Bay\obj\Debug\Bay.PL.login.resources
+D:\Bay\Bay\obj\Debug\Bay.PL.main_form.resources
+D:\Bay\Bay\obj\Debug\Bay.PL.new_acount.resources
+D:\Bay\Bay\obj\Debug\Bay.PL.Prnc.resources
+D:\Bay\Bay\obj\Debug\Bay.Properties.Resources.resources
+D:\Bay\Bay\obj\Debug\Bay.Rep.Reprt1.resources
+D:\Bay\Bay\obj\Debug\Bay.UC.cus_id.resources
+D:\Bay\Bay\obj\Debug\Bay.UC.Items.resources
+D:\Bay\Bay\obj\Debug\Bay.UC.Members.resources
+D:\Bay\Bay\obj\Debug\Bay.csproj.GenerateResource.Cache
+D:\Bay\Bay\obj\Debug\RdlCompile.cache
+D:\Bay\Bay\obj\Debug\RdlCompile.compiled
+D:\Bay\Bay\bin\Debug\Bay.exe.manifest
+D:\Bay\Bay\bin\Debug\Bay.application
+D:\Bay\Bay\obj\Debug\Bay.exe.manifest
+D:\Bay\Bay\obj\Debug\Bay.application
+E:\مجلد جديد (3)\Bay\Bay\bin\Debug\Bay.exe.config
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.exe
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.pdb
+E:\مجلد جديد (3)\Bay\Bay\bin\Debug\Bay.exe.manifest
+E:\مجلد جديد (3)\Bay\Bay\bin\Debug\Bay.application
+E:\مجلد جديد (3)\Bay\Bay\bin\Debug\Bay.exe
+E:\مجلد جديد (3)\Bay\Bay\bin\Debug\Bay.pdb
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.Form1.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.PL.cus_ss.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.PL.Form1.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.PL.Home.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.PL.item_pr.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.PL.login.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.PL.main_form.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.PL.new_acount.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.PL.Prnc.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.Properties.Resources.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.Rep.Reprt1.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.Rep._ٌreport2.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.UC.cus_id.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.UC.Items.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.UC.Members.resources
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.csproj.GenerateResource.Cache
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.exe.manifest
+E:\مجلد جديد (3)\Bay\Bay\obj\Debug\Bay.application
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\Bay.exe.config
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.exe
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.pdb
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.Form1.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.PL.cus_ss.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.PL.Form1.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.PL.Home.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.PL.item_pr.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.PL.login.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.PL.main_form.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.PL.new_acount.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.PL.Prnc.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.Properties.Resources.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.Rep.Reprt1.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.Rep._ٌreport2.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.UC.cus_id.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.UC.Items.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.UC.Members.resources
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.csproj.GenerateResource.Cache
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\RdlCompile.cache
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\RdlCompile.compiled
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\Bay.exe.manifest
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\Bay.application
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\Bay.exe
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\Bay.pdb
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Desktop\Bay\Bay\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.exe.manifest
+C:\Users\ALRAID\Desktop\Bay\Bay\obj\Debug\Bay.application
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\Bay.exe.manifest
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\Bay.application
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.exe.manifest
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.application
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.PL.Calcoleter.resources
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\BUY_DATA1.MDF
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\bin\Debug\BUY_DATA1_log.ldf
+C:\Users\ALRAID\Documents\Visual Studio 2015\Projects\Bay\Bay\obj\Debug\Bay.UC.Info.resources
+D:\Bay\Bay\bin\Debug\BUY_DATA1.MDF
+D:\Bay\Bay\bin\Debug\BUY_DATA1_log.ldf
+D:\Bay\Bay\obj\Debug\Bay.PL.Calcoleter.resources
+D:\Bay\Bay\obj\Debug\Bay.UC.Info.resources
+D:\Bay\Bay\obj\Debug\Bay.UC.all_members.resources
+D:\Bay\Bay\obj\Debug\Bay.csprojResolveAssemblyReference.cache
+H:\مجلد جديد (2)\Bay\Bay\bin\Debug\Bay.exe.config
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.exe
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.pdb
+H:\مجلد جديد (2)\Bay\Bay\bin\Debug\BUY_DATA1.MDF
+H:\مجلد جديد (2)\Bay\Bay\bin\Debug\BUY_DATA1_log.ldf
+H:\مجلد جديد (2)\Bay\Bay\bin\Debug\Bay.exe.manifest
+H:\مجلد جديد (2)\Bay\Bay\bin\Debug\Bay.application
+H:\مجلد جديد (2)\Bay\Bay\bin\Debug\Bay.exe
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.csprojResolveAssemblyReference.cache
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.Form1.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.PL.Calcoleter.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.PL.cus_ss.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.PL.Form1.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.PL.Home.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.PL.item_pr.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.PL.login.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.PL.main_form.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.PL.new_acount.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.PL.Prnc.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.Properties.Resources.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.Rep.Reprt1.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.UC.all_members.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.UC.cus_id.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.UC.Info.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.UC.Items.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.UC.Members.resources
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.csproj.GenerateResource.Cache
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.exe.manifest
+H:\مجلد جديد (2)\Bay\Bay\obj\Debug\Bay.application

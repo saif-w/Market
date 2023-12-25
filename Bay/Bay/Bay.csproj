@@ -1,0 +1,875 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C0B6EF2-AD9C-40BA-A630-B25BD0ACDEEA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bay</RootNamespace>
+    <AssemblyName>Bay</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\ALRAID\Desktop\baysetup\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>test bay</ProductName>
+    <PublisherName>bay</PublisherName>
+    <SuiteName>bay</SuiteName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C2D70016B73A627916489D7A4365797DC460F775</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Bay_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'bay2|AnyCPU'">
+    <OutputPath>bin\bay2\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'bay2|x86'">
+    <OutputPath>bin\x86\bay2\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>D:\منهج\بلدية الكنرونية\bun\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\_detales_pur.cs" />
+    <Compile Include="BL\_detales_sale.cs" />
+    <Compile Include="BL\_foater.cs" />
+    <Compile Include="BL\_return_pur.cs" />
+    <Compile Include="BL\_sale.cs" />
+    <Compile Include="BL\_Cus.cs" />
+    <Compile Include="BL\_quareycs.cs" />
+    <Compile Include="BL\_customers.cs" />
+    <Compile Include="BL\_cus_id.cs" />
+    <Compile Include="BL\_items.cs" />
+    <Compile Include="BL\_Members.cs" />
+    <Compile Include="BL\_purn.cs" />
+    <Compile Include="BL\_suplies.cs" />
+    <Compile Include="BUY_DATA1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BUY_DATA1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BUY_DATA1DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BUY_DATA1DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BUY_DATA1DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BUY_DATA1DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="buy_dataDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>buy_dataDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="buy_dataDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>buy_dataDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="buy_dataDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>buy_dataDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\Class1.cs" />
+    <Compile Include="DAL\DB.cs" />
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet3.cs">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet4.cs">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="item_reprt_bay.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>item_reprt_bay.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Calcolater_cus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Calcolater_cus.Designer.cs">
+      <DependentUpon>Calcolater_cus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Calcoleter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Calcoleter.Designer.cs">
+      <DependentUpon>Calcoleter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\cus_id_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\cus_id_view.Designer.cs">
+      <DependentUpon>cus_id_view.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\cus_ss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\cus_ss.Designer.cs">
+      <DependentUpon>cus_ss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\fatora_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\fatora_view.Designer.cs">
+      <DependentUpon>fatora_view.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\item_pr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\item_pr.Designer.cs">
+      <DependentUpon>item_pr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\item_sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\item_sale.Designer.cs">
+      <DependentUpon>item_sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\main_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\main_form.Designer.cs">
+      <DependentUpon>main_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\main_form_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\main_form_admin.Designer.cs">
+      <DependentUpon>main_form_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\new_acount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\new_acount.Designer.cs">
+      <DependentUpon>new_acount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Prnc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Prnc.Designer.cs">
+      <DependentUpon>Prnc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\pur_return_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\pur_return_view.Designer.cs">
+      <DependentUpon>pur_return_view.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\sale.Designer.cs">
+      <DependentUpon>sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\sale_supply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\sale_supply.Designer.cs">
+      <DependentUpon>sale_supply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rep\costmer_date_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rep\costmer_date_frm.Designer.cs">
+      <DependentUpon>costmer_date_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rep\coustmer_name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rep\coustmer_name.Designer.cs">
+      <DependentUpon>coustmer_name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rep\customer_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rep\customer_report.Designer.cs">
+      <DependentUpon>customer_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rep\date_foater_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rep\date_foater_report.Designer.cs">
+      <DependentUpon>date_foater_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rep\date_rep_pur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rep\date_rep_pur.Designer.cs">
+      <DependentUpon>date_rep_pur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rep\detales_pur_report_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rep\detales_pur_report_.Designer.cs">
+      <DependentUpon>detales_pur_report_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rep\foater_name_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rep\foater_name_frm.Designer.cs">
+      <DependentUpon>foater_name_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rep\foater_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rep\foater_report.Designer.cs">
+      <DependentUpon>foater_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rep\item_report_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rep\item_report_form.Designer.cs">
+      <DependentUpon>item_report_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rep\sales_reprt_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rep\sales_reprt_frm.Designer.cs">
+      <DependentUpon>sales_reprt_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rep\sale_date_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rep\sale_date_frm.Designer.cs">
+      <DependentUpon>sale_date_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rep\sale_name_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rep\sale_name_frm.Designer.cs">
+      <DependentUpon>sale_name_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\all_members.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\all_members.Designer.cs">
+      <DependentUpon>all_members.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\cus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\cus.Designer.cs">
+      <DependentUpon>cus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\cus_id.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\cus_id.Designer.cs">
+      <DependentUpon>cus_id.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\detales_sells.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\detales_sells.Designer.cs">
+      <DependentUpon>detales_sells.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\detale_purn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\detale_purn.Designer.cs">
+      <DependentUpon>detale_purn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Info.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Items.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Items.Designer.cs">
+      <DependentUpon>Items.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Members.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Members.Designer.cs">
+      <DependentUpon>Members.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Return_sells.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Return_sells.Designer.cs">
+      <DependentUpon>Return_sells.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\supply.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\supply.Designer.cs">
+      <DependentUpon>supply.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Calcolater_cus.resx">
+      <DependentUpon>Calcolater_cus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Calcoleter.resx">
+      <DependentUpon>Calcoleter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\costmer_date.rdlc" />
+    <EmbeddedResource Include="PL\cus_id_view.resx">
+      <DependentUpon>cus_id_view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\cus_ss.resx">
+      <DependentUpon>cus_ss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\fatora_view.resx">
+      <DependentUpon>fatora_view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\item_pr.resx">
+      <DependentUpon>item_pr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\item_sale.resx">
+      <DependentUpon>item_sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\main_form.resx">
+      <DependentUpon>main_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\main_form_admin.resx">
+      <DependentUpon>main_form_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\new_acount.resx">
+      <DependentUpon>new_acount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Prnc.resx">
+      <DependentUpon>Prnc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\pur_return_view.resx">
+      <DependentUpon>pur_return_view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\sale.resx">
+      <DependentUpon>sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\sale_supply.resx">
+      <DependentUpon>sale_supply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Rep\costmer_date_frm.resx">
+      <DependentUpon>costmer_date_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rep\costmer_report.rdlc" />
+    <EmbeddedResource Include="Rep\coustmer_name.rdlc" />
+    <EmbeddedResource Include="Rep\coustmer_name.resx">
+      <DependentUpon>coustmer_name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rep\customer_report.resx">
+      <DependentUpon>customer_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rep\date_foater_report.resx">
+      <DependentUpon>date_foater_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rep\date_pur_rep.rdlc" />
+    <EmbeddedResource Include="Rep\date_rep_pur.resx">
+      <DependentUpon>date_rep_pur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rep\detales_pur.rdlc" />
+    <EmbeddedResource Include="Rep\detales_pur_report_.resx">
+      <DependentUpon>detales_pur_report_.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rep\foater_date.rdlc" />
+    <EmbeddedResource Include="Rep\foater_name.rdlc" />
+    <EmbeddedResource Include="Rep\foater_name_frm.resx">
+      <DependentUpon>foater_name_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rep\foater_rep.rdlc" />
+    <EmbeddedResource Include="Rep\foater_report.resx">
+      <DependentUpon>foater_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rep\item.rdlc" />
+    <EmbeddedResource Include="Rep\item_report_form.resx">
+      <DependentUpon>item_report_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rep\Report1.rdlc" />
+    <EmbeddedResource Include="Rep\sales_report.rdlc" />
+    <EmbeddedResource Include="Rep\sales_reprt_frm.resx">
+      <DependentUpon>sales_reprt_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rep\sale_date.rdlc" />
+    <EmbeddedResource Include="Rep\sale_date_frm.resx">
+      <DependentUpon>sale_date_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rep\sale_name.rdlc" />
+    <EmbeddedResource Include="Rep\sale_name_frm.resx">
+      <DependentUpon>sale_name_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\all_members.resx">
+      <DependentUpon>all_members.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\cus.resx">
+      <DependentUpon>cus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\cus_id.resx">
+      <DependentUpon>cus_id.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\detales_sells.resx">
+      <DependentUpon>detales_sells.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\detale_purn.resx">
+      <DependentUpon>detale_purn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\Items.resx">
+      <DependentUpon>Items.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\Members.resx">
+      <DependentUpon>Members.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\Return_sells.resx">
+      <DependentUpon>Return_sells.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\supply.resx">
+      <DependentUpon>supply.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Bay_TemporaryKey.pfx" />
+    <None Include="BUY_DATA1DataSet.xsc">
+      <DependentUpon>BUY_DATA1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BUY_DATA1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BUY_DATA1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BUY_DATA1DataSet.xss">
+      <DependentUpon>BUY_DATA1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BUY_DATA1DataSet1.xsc">
+      <DependentUpon>BUY_DATA1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BUY_DATA1DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BUY_DATA1DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BUY_DATA1DataSet1.xss">
+      <DependentUpon>BUY_DATA1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BUY_DATA1DataSet3.xsc">
+      <DependentUpon>BUY_DATA1DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="BUY_DATA1DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BUY_DATA1DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BUY_DATA1DataSet3.xss">
+      <DependentUpon>BUY_DATA1DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="buy_dataDataSet.xsc">
+      <DependentUpon>buy_dataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="buy_dataDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>buy_dataDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="buy_dataDataSet.xss">
+      <DependentUpon>buy_dataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="buy_dataDataSet1.xsc">
+      <DependentUpon>buy_dataDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="buy_dataDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>buy_dataDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="buy_dataDataSet1.xss">
+      <DependentUpon>buy_dataDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="buy_dataDataSet2.xsc">
+      <DependentUpon>buy_dataDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="buy_dataDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>buy_dataDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="buy_dataDataSet2.xss">
+      <DependentUpon>buy_dataDataSet2.xsd</DependentUpon>
+    </None>
+    <Fakes Include="Fakes\Microsoft.ReportViewer.Common.fakes" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsc">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet3.xss">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet4.xsc">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet4.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet4.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet4.xss">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet5.xsc">
+      <DependentUpon>DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet5.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet5.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet5.xss">
+      <DependentUpon>DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet6.xsc">
+      <DependentUpon>DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet6.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet6.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet6.xss">
+      <DependentUpon>DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet7.xsc">
+      <DependentUpon>DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet7.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet7.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet7.xss">
+      <DependentUpon>DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="item_reprt_bay.xsc">
+      <DependentUpon>item_reprt_bay.xsd</DependentUpon>
+    </None>
+    <None Include="item_reprt_bay.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>item_reprt_bay.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="item_reprt_bay.xss">
+      <DependentUpon>item_reprt_bay.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\069-bitcoin-27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\004-bitcoin-73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\010-bitcoin-69.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\033-bitcoin-54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\018-money-bag-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\058-bitcoin-36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\049-bitcoin-45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\067-bitcoin-29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\014-bitcoin-67.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\099-exchange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\فف.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross-red-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus-zoomout-subtract-cut-delete-minimise-minimize-decrease-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BUY_DATA1.MDF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BUY_DATA1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>BUY_DATA1.MDF</DependentUpon>
+    </Content>
+    <None Include="Resources\006-lock-2.png" />
+    <None Include="Resources\007-lock-1.png" />
+    <None Include="Resources\003-curriculum.png" />
+    <None Include="Resources\004-clipboard.png" />
+    <None Include="Resources\042-delivery truck.png" />
+    <None Include="Resources\036-shopping cart.png" />
+    <None Include="Resources\035-shopping cart.png" />
+    <None Include="Resources\002-cheque.png" />
+    <None Include="Resources\031-boy-2.png" />
+    <None Include="Resources\029-money.png" />
+    <None Include="Resources\026-price tag.png" />
+    <None Include="Resources\012-rating.png" />
+    <None Include="Resources\jj.jpg" />
+    <None Include="Resources\josh-sorenson-Z33d85enIBI-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
